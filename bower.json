@@ -1,0 +1,36 @@
+{
+  "name": "epsilon-viz",
+  "authors": [
+    "nabil <nabilblk@gmail.com>"
+  ],
+  "description": "A revolutionary Dataviz using Vega",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "Vega",
+    "Dataviz"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nabilblk/epsilon-viz",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vega": "^2.5.2",
+    "vega-embed": "^2.1.0",
+    "d3-cloud": "^1.2.1",
+    "topojson": "^1.6.26",
+    "d3-geo-projection": "^0.2.16"
+  }
+}
